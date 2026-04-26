@@ -23,15 +23,99 @@ It also includes a basic debugging assistant for common programming errors.
 
 ## Project Structure
 code_assistant/
-│── gui.py
-│── menu.py
-│── README.md
+│── ai_code_assistant.py
+│── documentation.md
 
 ## How It Works
 1. User enters a coding question.
 2. Application sends the question to AI API.
 3. AI generates the response.
 4. Response is displayed in output box.
+
+## Example Queries / Test Cases
+
+The following sample queries can be used to test the AI Code Assistant:
+
+Basic Python
+
+- Reverse a list
+- Find length of list
+- Swap two numbers
+- Check even or odd
+- Find largest number
+- Prime number check
+- Fibonacci series
+- Factorial program
+- Palindrome check
+- Armstrong number
+
+String Operations
+
+- Reverse string
+- Count vowels
+- Remove spaces
+- Convert uppercase/lowercase
+- Check palindrome string
+
+List Operations
+
+- Sort a list
+- Remove duplicates
+- Find max/min
+- Merge lists
+- Sum list elements
+
+Pattern Programs
+
+- Star pyramid
+- Number triangle
+- Diamond pattern
+
+Functions
+
+- Calculator using functions
+- Recursive factorial
+- Recursive Fibonacci
+
+Object-Oriented Programming (OOP)
+
+- Class and object example
+- Student management system
+- Bank account program
+
+File Handling
+
+- Create file
+- Read file
+- Write file
+- Append file
+
+Tkinter GUI Programs
+
+- Calculator GUI
+- Login form
+- To-do app
+- Stopwatch
+
+Web Development
+
+- HTML form
+- CSS navbar
+- JavaScript calculator
+
+Debugging
+
+- Fix syntax error
+- Fix index error
+- Fix division by zero
+- Explain traceback
+
+Sample Prompt Examples
+
+- Write Python code for calculator
+- Create login page in HTML CSS
+- Explain for loop in Python
+- Fix this code: ...
 
 ## Debugging System
 Supports:
@@ -49,7 +133,7 @@ or
 pip install google-generativeai
 
 ## Run Project
-python gui.py
+python ai_code_assistant.py
 
 ## Future Improvements
 - Copy button
@@ -61,4 +145,4 @@ python gui.py
 - Theme switch
 
 ## Author
-Aysha Afnan
+Aysha Afnan Binth Moideen
