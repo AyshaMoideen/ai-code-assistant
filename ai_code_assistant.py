@@ -43,7 +43,7 @@ def ask_ai(question):
     try:
         # send user input to Groq AI model
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[
                 {"role": "user", "content": question}
             ]
